@@ -6,7 +6,7 @@ Item Catalog
 
 ### About the instance
 * The instance can be accessed via ssh at 52.38.253.248 with port 2200
-* Access the catalog at http://www.52.38.253.248.xip.io/
+* Access the catalog at http://ec2-52-38-253-248.us-west-2.compute.amazonaws.com/
 This is important because Google's OAuth framework doesn't allow 
 external IPs to be used as authorized redirect URIs.
 
@@ -24,6 +24,4 @@ external IPs to be used as authorized redirect URIs.
 * Python Flask and related libraries
 
 ### Third-party resources
-* http://xip.io/ - a wildcard DNS service used to get around 
- Google's OAuth framework redirect policy of not allowing external IPs, without having to purchase a domain.
 * https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps - used this guide to configure item-catalog.wsgi correctly.
